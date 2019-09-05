@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <title>task</title> 
+  <meta charset="utf-8">
+  <meta name="description" content="this is private piece of code">
+  <meta name="author" content="MaO">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900&amp;subset=latin-ext" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/task.css">
+  <link rel="stylesheet" href="css/rSlider.min.css">
+
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="header__logo">
+            <a href="#" title="go to main page">
+                <img src="images/logo.png" alt="logo">
+            </a>
+        </div>
+        
+        <div class="header__top clearfix">
+            <div class="header__search clearfix">
+                <div id="search__wrapper" class="header__form is--hidden">
+                    <form id="search__form" action="" method="get" class="form">
+                        <input type="text" id="search" name="search" placeholder="Search" />
+                    </form>
+                </div>
+                <div class="header__loop">
+                    <a id="search__trigger" href="#" title="search"><img src="images/search.png" alt="search icon"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__bottom clearfix">
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li><a href="#" title="About Us">About Us</a></li>
+                    <li><a href="#" title="Media Centre">Media Centre</a></li>
+                    <li><a href="#" title="Membership">Membership</a></li>
+                    <li><a href="#" title="Events">Events</a></li>
+                    <li><a href="#" title="Publications">Publications</a></li>
+                    <li><a href="#" title="Research">Research</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__basket">
+                <a href="#" title="basket"><img src="images/basket.png" alt="basket icon"></a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="form__wrapper">
+        <div class="form__container">
+
+        <h1>Donate our cause</h1>
+        <p id="range__description"><span>$39</span> can help us improve this product</p>
+        
+        <form id="donate__form" action="" method="get" class="form">
+            <div class="form__rangeslider">
+                <input id="slider" type="range" min="0" max="100" value="39"/>
+            </div>
+            <div class="form__checkbox">
+                <input type="checkbox" id="agree" name="agree" value="yes" />
+                <label for="agree">Yes, I would like to donate this amount monthly</label>
+            </div>
+            <p class="form__error is--hidden" id="range__error">Please set the amount correctly</p>
+
+            <div class="form__section is--hidden" id="section2">
+                <h2>Enter your information:</h2>
+                <div class="form__fields">
+                    <div class="form__input">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="First Last" />
+                        <p class="form__error is--hidden" id="name__error">Please enter your first and last name</p>
+                    </div>
+                    <div class="form__input">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" name="email" placeholder="your@email.com" />
+                        <p class="form__error is--hidden" id="email__error">Please enter a valid e-mail address</p>
+                    </div>
+                    <div class="form__input">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" name="address" placeholder="Main St, 123" />
+                        <p class="form__error is--hidden" id="address__error">Please enter your street address, street name and number separated by a comma</p>
+                    </div>
+                    <div class="form__input">
+                        <label for="citystate">City, State</label>
+                        <input type="text" id="citystate" name="citystate" placeholder="Pittsburgh, PA" />
+                        <p class="form__error is--hidden" id="citystate__error">Please enter your city and state, separated by a comma</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form__section is--hidden" id="section3">
+                <h2>Credit card info:</h2>
+                <div class="form__input form__credit">
+                    <input class="credit--card" type="text" id="credit_number" name="credit_number" placeholder="1234 5678 9012 3456" maxlength="16" />
+                    <p class="form__error is--hidden" id="credit__error">Please enter your credit card number - only numbers</p>
+                </div>
+                <div id="credit__extra" class="form__input form__credit form__credit--extra is--hidden">
+                    <div class="credit__inputs">
+                        <input class="credit--card" type="text" id="credit_short" name="credit_short" placeholder="1234" disabled />
+                        <input type="text" id="credit_date" name="credit_date" placeholder="MM/YY" maxlength="5" />
+                        <input type="text" id="credit_cvv" name="credit_cvv" placeholder="CVV" maxlength="3" />
+                        <input type="text" id="credit_zip" name="credit_zip" placeholder="ZIP" maxlength="5" />
+                    </div>
+                    <p class="form__error is--hidden" id="credit__error--extra">xxx</p>
+                    <p class="form__success is--hidden" id="credit__success">Hooray! You've successfully filled out your credit card information.</p>
+                 </div>
+            </div>
+
+            <div class="form__button">
+                <button id="form__submit" name="submit" type="submit">DONATE</button>
+            </div>
+
+        </form>
+        <noscript>you need to enable javascript in your browser to continue</noscript>
+
+        </div>
+    </section>
+
+    <footer class="footer clearfix">
+        <nav class="footer__nav">
+            <ul class="footer__socialmenu">
+                <li><a href="#" title="social - twitter"><img src="images/social/soc1.png" alt="social icon 1"></a></li>
+                <li><a href="#" title="social - facebook"><img src="images/social/soc2.png" alt="social icon 2"></a></li>
+                <li><a href="#" title="social - youtube"><img src="images/social/soc3.png" alt="social icon 3"></a></li>
+                <li><a href="#" title="social - x"><img src="images/social/soc4.png" alt="social icon 4"></a></li>
+                <li><a href="#" title="social - y"><img src="images/social/soc5.png" alt="social icon 5"></a></li>
+                <li><a href="#" title="social - z"><img src="images/social/soc6.png" alt="social icon 6"></a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="js/rSlider.min.js"></script>
+    <script src="js/task.js"></script>
+
+</body>
+</html>
