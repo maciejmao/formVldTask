@@ -20,4 +20,5 @@ this is interactive form made from scratch, layout based on PSD, reqs and behavi
 >
 >3. Section 3. shows automatically when section 2 fields are filled out correctly. Credit card field have a steps with "on the fly" >validation with error message when needed and the success message when completed correctly.
 
-I decided to use only Vanilla JS for scripting with a little help of rSlider library for implementing more customized range slider widget,  only my final version is shared here ([link](https://maciejmao.github.io/rectask1)) with all original flaws, so be considered
+I decided to use only Vanilla JS for scripting with a little help of rSlider library for implementing more customized range slider widget, only my final version is shared here with all original flaws, so be considered\
+( [link to project](https://maciejmao.github.io/rectask1) )

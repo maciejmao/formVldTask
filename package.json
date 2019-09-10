@@ -1,0 +1,19 @@
+{
+  "name": "rec-task-1",
+  "version": "1.0.0",
+  "description": "this is interactive form made from scratch, layout based on PSD, reqs and behaviour along description given",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maciejmao/rectask1.git"
+  },
+  "author": "MaO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maciejmao/rectask1/issues"
+  },
+  "homepage": "https://github.com/maciejmao/rectask1#readme"
+}
