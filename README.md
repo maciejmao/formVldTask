@@ -1,4 +1,4 @@
-## webdev recruitment task example
+## form with validation task
 
 this is interactive form made from scratch, layout based on PSD, reqs and behaviour along description given
 
